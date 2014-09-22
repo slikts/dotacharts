@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import json
 import sys
 import math
@@ -168,7 +170,7 @@ def table(data):
 def save(data):
     data_json = json.dumps(data)
     data_json_format = json.dumps(data, indent=2)
-    json_name = 'parsed/{}.json'.format(data['id'])
+    json_name = '{}.json'.format(data['id'])
     open(json_name, 'wb').write(data_json_format)
     template = open('templates/match.html', 'r').read()
     print json_name, 'written'
@@ -186,7 +188,7 @@ def save(data):
         ['Winner', winner],
     ]
 
-    html_name = 'parsed/{}.html'.format(data['id'])
+    html_name = '{}.html'.format(data['id'])
     open(html_name, 'w').write(template.format(title=title,
         data=data_json,
         #meta=table(meta),
@@ -198,7 +200,7 @@ def save(data):
     index()
 
 def index():
-    html = open('templates/index.html', 'r').read().format('\n'.join(map(lambda x: '<li><a href="{}">{}</a></li>'.format(x, x.split('/')[-1].split('.')[-2]), glob('parsed/[0-9]*.html'))))
+    html = open('templates/index.html', 'r').read().format('\n'.join(map(lambda x: '<li><a href="{}">{}</a></li>'.format(x, x.split('/')[-1].split('.')[-2]), glob('[0-9]*.html'))))
 
     open('index.html', 'w').write(html)
 
