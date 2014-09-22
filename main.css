@@ -1,0 +1,9 @@
+html,
+body {
+	height: 100%;
+}
+
+.chart {
+	height: 500px;
+	max-width: 1200px;
+}
