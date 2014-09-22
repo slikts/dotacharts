@@ -15,4 +15,4 @@
 ## TODO
 
  * Player names
- * Match date
+ * Match dates
