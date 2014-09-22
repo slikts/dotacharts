@@ -8,6 +8,6 @@
    * Gold / Minute
    * Experience / Minute
    * Last Hits
- * Very quick and dirty
+ * *Very* quick and dirty
  * [Example charts](https://slikts.github.io/dotacharts)
  * Usage: `python parse.py [demofile]`
