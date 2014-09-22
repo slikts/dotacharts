@@ -1,3 +1,5 @@
+![example](https://raw.github.com/slikts/dotacharts/master/example.gif)
+
 #dotacharts
 
  * **[Example charts](https://slikts.github.io/dotacharts)**
