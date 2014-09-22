@@ -1,5 +1,6 @@
 #dotacharts
 
+ * **[Example charts](https://slikts.github.io/dotacharts)**
  * Requires [smoke](https://github.com/skadistats/smoke)
  * Creates standalone HTML files (can be opened from the local filesystem)
  * Uses [Google Charts](https://developers.google.com/chart/)
@@ -9,7 +10,6 @@
    * Experience / Minute
    * Last Hits
  * *Very* quick and dirty
- * [Example charts](https://slikts.github.io/dotacharts)
  * Usage: `python parse.py [demofile]`
 
 ## TODO
