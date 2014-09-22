@@ -1,7 +1,11 @@
 #dotacharts
 
  * Requires [smoke](https://github.com/skadistats/smoke)
- * Creates *Gold / Minute*, *Experience / Minute* and *Last Hit* charts as standalone HTML files
+ * Creates standalone HTML files
+ * Charts:
+   * Gold / Minute
+   * Experience / Minute
+   * Last Hit
  * Very quick and dirty
  * [Example charts](https://slikts.github.io/dotacharts)
  * Usage: `python parse.py [demofile]`
