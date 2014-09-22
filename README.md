@@ -11,3 +11,8 @@
  * *Very* quick and dirty
  * [Example charts](https://slikts.github.io/dotacharts)
  * Usage: `python parse.py [demofile]`
+
+## TODO
+
+ * Player names
+ * Match date
